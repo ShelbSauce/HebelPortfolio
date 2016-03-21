@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'AlexBrush-Regular';
+	src: url('alex-brush/AlexBrush-Regular.ttf')
+	format('truetype');
+}
+body {
+	background-color:black;
+	font-family: "AlexBrush-Regular";
+	text-align:center;
+	color:white;
+}
+a:link {
+	text-decoration:none;
+	color:white;
+	font-size:60px;
+}
+a:hover {
+	text-decoration:none;
+	color:blue;
+	font-weight:bold;
+	font-size:70px;
+}
+a:visited {
+	text-decoration:none;
+	font-size:60px;
+}
+blockquote > div {
+	border:2px solid violet;
+	border-radius:80%;
+	background-color:yellow;
+	opacity: 0.7;
+	padding:50px;
+	color:black;
+	font-family:Cursive;
+}
+h1 {
+	font-size:60px;
+}
+h2 {
+	font-size:45px;
+}
+li {
+	font-size:25px;
+}
+p {
+	font-size:30px;
+	color:violet;
+}
+ul, ol {
+	font-size:30px;
+}
+ul > li {
+	text-align:left;
+	font-size:30px;
+}
+div > a:link {
+	font-size:30px;
+	color:violet;
+}
+div > a:hover {
+	color:blue;
+	font-size:37px;
+	font-weight:bold;
+}
+li > div {
+	color:violet;
+}
+img {
+	position:relative;
+	border:5px solid gray;
+	border-radius:10%;
+}
+.nav {
+	position:relative;
+	float:left;
+	text-align:left;
+	font-size:20px;
+	height:40px;
+}
+.nav a:link {
+	font-size:20px;
+}
+.nav a:hover {
+	font-size:20px;
+}
+.nav a:visited {
+	font-size:20px;
+}
+.nav ul {
+	margin:0;
+	padding:0;
+	font-size:20px;
+}
